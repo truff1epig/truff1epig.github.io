@@ -1,0 +1,20 @@
+h1 {
+	color: green;
+	background-color: rgb(245,244,158);
+	width: 500px
+}
+h2 {
+	color: rgb(200, 20, 240); purple;
+}
+img {
+
+}
+
+ol{
+	width: 450px;
+	background-color: rgb(250,220,240);
+}
+ul{
+	background-color: rgb(241,255,255);
+	width: 450px
+}
