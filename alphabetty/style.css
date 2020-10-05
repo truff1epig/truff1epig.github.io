@@ -1,0 +1,83 @@
+.allshapes {
+	background-color: rgb(0,0,0);
+	position: absolute;
+}
+
+.r1 {
+	height: 200px;
+	width: 20px;
+	border-radius: 0px 20px 0px 20px;
+	top: 100px;
+	left: 100px;
+}
+.r2 {
+	height: 100px;
+	width: 100px;
+	border-radius: 20px 20px 20px 0px;
+	top: 100px;
+	left: 150px;
+}
+.r3 {
+	height: 60px;
+	width: 60px;
+	border-radius: 0px 0px 0px 13px;
+	top: 240px;
+	left: 150px;
+}
+.r4 {
+	height: 85px;
+	width: 85px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 200px;
+	left: 165px;
+	transform: rotate(45deg);
+}
+.r5 {
+	height: 20px;
+	width:20px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 115px;
+	left: 210px;	
+}
+.a1 {
+	height: 100px;
+	width: 100px;
+	border-radius: 0px 0px 20px 0px;
+	top: 100px;
+	left: 400px
+}
+.a2 {
+	height: 145px;
+	width: 145px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 25px;
+	left: 327px;
+	transform: rotate(45deg);
+}
+.a3 {
+	height: 50px;
+	width: 60px;
+	border-radius: 20px 20px 0px 20px;	
+	top: 250px;
+	left: 350px;
+}
+.a4 {
+	height: 80px;
+	width: 20px;
+	border-radius: 10px 0px 10px 0px;
+	top: 220px;
+	left: 480px;
+}
+.a5 {
+	height: 20px;
+	width:20px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 166px;
+	left: 466px;	
+}
