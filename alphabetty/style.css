@@ -2,7 +2,27 @@
 	background-color: rgb(0,0,0);
 	position: absolute;
 }
-
+.title {
+	color: rgb(0,0,0);
+	position: absolute;
+	top: 370px;
+	left: 100px;
+	width: 350px;
+	font-family: Trebuchet MS;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.copy {
+	color: rgb(0,0,0);
+	position: absolute;
+	top: 460px;
+	left: 100px;
+	width: 375px;
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	line-height: 30px;
+}
 .r1 {
 	height: 200px;
 	width: 20px;
@@ -47,7 +67,7 @@
 	width: 100px;
 	border-radius: 0px 0px 20px 0px;
 	top: 100px;
-	left: 400px
+	left: 370px
 }
 .a2 {
 	height: 145px;
@@ -55,7 +75,7 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 25px;
-	left: 327px;
+	left: 297px;
 	transform: rotate(45deg);
 }
 .a3 {
@@ -63,14 +83,14 @@
 	width: 60px;
 	border-radius: 20px 20px 0px 20px;	
 	top: 250px;
-	left: 350px;
+	left: 320px;
 }
 .a4 {
-	height: 80px;
-	width: 20px;
+	height: 90px;
+	width: 10px;
 	border-radius: 10px 0px 10px 0px;
-	top: 220px;
-	left: 480px;
+	top: 210px;
+	left: 460px;
 }
 .a5 {
 	height: 20px;
@@ -79,5 +99,74 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 166px;
-	left: 466px;	
+	left: 436px;	
+}
+.n1 {
+	height: 200px;
+	width: 20px;
+	border-radius: 0px 20px 0px 20px;
+	top: 100px;
+	left: 580px;
+}
+.n2 {
+	height: 100px;
+	width: 100px;
+	border-radius: 0px 0px 0px 20px;
+	top: 100px;
+	left: 620px;
+}
+.n3 {
+	height: 145px;
+	width: 145px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 25px;
+	left: 647px;
+	transform: rotate(45deg);	
+}
+.n4 {
+	height: 175px;
+	width: 10px;
+	border-radius: 10px 0px 10px 10px;
+	top: 125px;
+	left: 727px;
+}
+.g1 {
+	height: 200px;
+	width: 20px;
+	border-radius: 0px 20px 20px 20px;
+	top: 100px;
+	left: 837px;
+}
+.g2 {
+	height: 10px;
+	width: 150px;
+	border-radius: 0px 0px 20px 0px;
+	top: 100px;
+	left: 837px;
+}
+.g3 {
+	height: 100px;
+	width: 100px;
+	border-radius: 20px 0px 20px 0px;
+	top: 200px;
+	left: 885px;	
+}
+.g4 {
+	height: 145px;
+	width: 145px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 227px;
+	left: 915px;
+	transform: rotate(45deg);
+}
+.g5 {
+	height: 20px;
+	width:20px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 266px;
+	left: 899px;
 }
