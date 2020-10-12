@@ -7,21 +7,86 @@
 	position: absolute;
 	top: 370px;
 	left: 100px;
-	width: 350px;
+	width: 100px;
 	font-family: Trebuchet MS;
 	font-size: 28px;
 	line-height: 30px;
 	font-weight: bold;
 }
+.title:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
 .copy {
 	color: rgb(0,0,0);
 	position: absolute;
-	top: 460px;
+	top: 400px;
 	left: 100px;
 	width: 375px;
 	font-family: Trebuchet MS;
 	font-size: 14px;
 	line-height: 30px;
+}
+.allr{
+	position: absolute;
+	left: 
+}
+.allr:hover .allshapes {
+	background-color: rgb(228,62,36);
 }
 .r1 {
 	height: 200px;
@@ -30,19 +95,20 @@
 	top: 100px;
 	left: 100px;
 }
+
 .r2 {
 	height: 100px;
 	width: 100px;
 	border-radius: 20px 20px 20px 0px;
 	top: 100px;
-	left: 150px;
+	left: 140px;
 }
 .r3 {
 	height: 60px;
 	width: 60px;
 	border-radius: 0px 0px 0px 13px;
 	top: 240px;
-	left: 150px;
+	left: 140px;
 }
 .r4 {
 	height: 85px;
@@ -50,7 +116,7 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 200px;
-	left: 165px;
+	left: 155px;
 	transform: rotate(45deg);
 }
 .r5 {
@@ -60,7 +126,14 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 112px;
-	left: 217px;	
+	left: 207px;	
+}
+.alla {
+	position: absolute;
+	left: -15px;
+}
+.alla:hover .allshapes {
+	background-color: rgb(245,245,81);
 }
 .a1 {
 	height: 100px;
@@ -88,7 +161,7 @@
 .a4 {
 	height: 90px;
 	width: 10px;
-	border-radius: 10px 0px 10px 0px;
+	border-radius: 0px 10px 0px 10px;
 	top: 210px;
 	left: 460px;
 }
@@ -100,6 +173,13 @@
 	position: absolute;
 	top: 166px;
 	left: 436px;	
+}
+.alln {
+	position: absolute;
+	left: -20px;
+}
+.alln:hover .allshapes {
+	background-color: rgb(107,229,71);
 }
 .n1 {
 	height: 200px;
@@ -131,10 +211,17 @@
 	top: 125px;
 	left: 727px;
 }
+.allg {
+	position: absolute;
+	left: -20px;
+}
+.allg:hover .allshapes {
+	background-color: rgb(0,240,240);
+}
 .g1 {
 	height: 200px;
 	width: 20px;
-	border-radius: 0px 20px 20px 20px;
+	border-radius: 0px 0px 0px 20px;
 	top: 100px;
 	left: 837px;
 }
@@ -148,9 +235,9 @@
 .g3 {
 	height: 100px;
 	width: 100px;
-	border-radius: 20px 0px 20px 0px;
+	border-radius: 0px 20px 0px 0px;
 	top: 200px;
-	left: 885px;	
+	left: 875px;	
 }
 .g4 {
 	height: 145px;
@@ -158,7 +245,7 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 227px;
-	left: 915px;
+	left: 805px;
 	transform: rotate(45deg);
 }
 .g5 {
@@ -168,5 +255,45 @@
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 266px;
-	left: 899px;
+	left: 889px;
+}
+.alle:hover .allshapes {
+	background-color: rgb(240,0,220);
+}
+.e1 {
+	height: 200px;
+	width: 20px;
+	border-radius: 0px 20px 0px 20px;
+	top: 105px;
+	left: 1049px;
+}
+.e2 {
+	height: 90px;
+	width: 90px;
+	border-radius: 20px 20px 20px 0px;
+	top: 105px;
+	left: 1089px;
+}
+.e3 {
+	height: 10px;
+	width: 105px;
+	border-radius: 0px 0px 20px 0px;
+	top: 230px;
+	left: 1069px;
+}
+.e4 {
+	height: 10px;
+	width: 105px;
+	border-radius: 0px 0px 20px 0px;
+	top: 295px;
+	left: 1069px;
+}
+.e5 {
+	height: 20px;
+	width:20px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+	top: 165px;
+	left: 1099px;
 }
