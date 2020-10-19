@@ -14,62 +14,8 @@
 	font-weight: bold;
 }
 .title:hover {
--webkit-animation:rainbow 1s infinite;
--ms-animation:rainbow 1s infinite;
--o-animation:rainbow 1s infinite;
-animation:rainbow 1s infinite;
-}
-@-webkit-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@-ms-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@-o-keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
-}
-@keyframes rainbow {
-0% {color: #ff0000;}
-10% {color: #ff8000;}
-20% {color: #ffff00;}
-30% {color: #80ff00;}
-40% {color: #00ff00;}
-50% {color: #00ff80;}
-60% {color: #00ffff;}
-70% {color: #0080ff;}
-80% {color: #0000ff;}
-90% {color: #8000ff;}
-100% {color: #ff0080;}
+	transform: skew(-30deg);
+	transition: transform 3s ease-in-out;
 }
 .copy {
 	color: rgb(0,0,0);
@@ -89,7 +35,7 @@ animation:rainbow 1s infinite;
 }
 .allr:hover .allshapes {
 	background-color: rgb(213,214,233);
-	transition: background-color 1.5s ease-out;
+	transition: all 1.5s ease-out;
 }
 .r1 {
 	height: 200px;
@@ -98,7 +44,10 @@ animation:rainbow 1s infinite;
 	top: 100px;
 	left: 100px;
 }
-
+.r1:hover {
+	height: 230px;
+	transition: all 5s ease-out;
+}
 .r2 {
 	height: 100px;
 	width: 100px;
@@ -106,12 +55,18 @@ animation:rainbow 1s infinite;
 	top: 100px;
 	left: 135px;
 }
+.r2:hover {
+	transform: rotate(180deg);
+}
 .r3 {
 	height: 60px;
 	width: 60px;
 	border-radius: 0px 0px 0px 13px;
 	top: 240px;
 	left: 135px;
+}
+.r3:hover {
+	transform: rotate(-90deg);
 }
 .r4 {
 	height: 85px;
@@ -129,18 +84,21 @@ animation:rainbow 1s infinite;
 	background-color: rgb(255,255,255);
 	position: absolute;
 	top: 112px;
-	left: 207px;	
+	left: 204px;	
+}
+.r5:hover {
+	transform: rotate(630deg);
+	transition: transform 2s ease-in-out;
 }
 .alla {
 	position: absolute;
 	top: 100px;
 	left: 15px;
 	transform: scale(.65);
-
 }
 .alla:hover .allshapes {
 	background-color: rgb(216,216,206);
-	transition: background-color 1.5s ease-out;
+	transition: all 1.5s ease-out;
 }
 .a1 {
 	height: 100px;
@@ -148,6 +106,9 @@ animation:rainbow 1s infinite;
 	border-radius: 0px 0px 20px 0px;
 	top: 100px;
 	left: 370px
+}
+.a1:hover {
+	transform: rotate(-180deg);
 }
 .a2 {
 	height: 145px;
@@ -165,12 +126,20 @@ animation:rainbow 1s infinite;
 	top: 250px;
 	left: 320px;
 }
+.a3:hover {
+	transform: rotate(-270deg);
+	transition: transform 2s ease-out;
+}
 .a4 {
 	height: 90px;
 	width: 10px;
 	border-radius: 0px 10px 0px 10px;
 	top: 210px;
 	left: 460px;
+}
+.a4:hover {
+	width: 30px;
+	left: 440px;
 }
 .a5 {
 	height: 20px;
@@ -181,6 +150,10 @@ animation:rainbow 1s infinite;
 	top: 166px;
 	left: 436px;	
 }
+.a5:hover {
+	transform: rotate(360deg);
+	transition: transform 1.5s ease-out;
+}
 .alln {
 	position: absolute;
 	top: 100px;
@@ -189,7 +162,7 @@ animation:rainbow 1s infinite;
 }
 .alln:hover .allshapes {
 	background-color: rgb(235,217,235);
-	transition: background-color 1.5s ease-out;
+	transition: all 1.5s ease-out;
 }
 .n1 {
 	height: 200px;
@@ -198,12 +171,19 @@ animation:rainbow 1s infinite;
 	top: 100px;
 	left: 580px;
 }
+.n1:hover {
+	height: 250px;
+	top: 50px;
+}
 .n2 {
 	height: 100px;
 	width: 100px;
 	border-radius: 0px 0px 0px 20px;
 	top: 100px;
 	left: 620px;
+}
+.n2:hover {
+	transform: rotate(90deg);
 }
 .n3 {
 	height: 145px;
@@ -221,6 +201,10 @@ animation:rainbow 1s infinite;
 	top: 125px;
 	left: 727px;
 }
+.n4:hover {
+	height: 150px;
+	top: 150px;
+}
 .n5 {
 	height: 20px;
 	width:20px;
@@ -230,29 +214,40 @@ animation:rainbow 1s infinite;
 	top: 165px;
 	left: 633px;
 }
+.n5:hover {
+	transform: rotate(-720deg);
+	transition: transform 2.2s ease-in-out;
+}
 .allg {
 	position: absolute;
 	top: 100px;
 	left: 10px;
 	transform: scale(.65);
-
 }
 .allg:hover .allshapes {
 	background-color: rgb(219,236,219);
-	transition: background-color 1.5s ease-out;
+	transition: all 1.5s ease-out;
 }
 .g1 {
-	height: 200px;
+	height: 150px;
 	width: 20px;
 	border-radius: 0px 0px 0px 20px;
-	top: 100px;
+	top: 150px;
 	left: 837px;
+}
+.g1:hover {
+	height: 190px;
 }
 .g2 {
 	height: 10px;
-	width: 150px;
+	width: 110px;
 	border-radius: 0px 0px 20px 0px;
 	top: 100px;
+	left: 877px;
+}
+.g2:hover {
+	height: 50px;
+	width: 150px;
 	left: 837px;
 }
 .g3 {
@@ -261,6 +256,9 @@ animation:rainbow 1s infinite;
 	border-radius: 0px 20px 0px 0px;
 	top: 200px;
 	left: 875px;	
+}
+.g3:hover {
+	transform: rotate(-270deg);
 }
 .g4 {
 	height: 145px;
@@ -289,16 +287,26 @@ animation:rainbow 1s infinite;
 	top: 212px;
 	left: 943px;
 }
+.g5:hover {
+	transform: rotate(270deg);
+	transition: transform 1.5s ease-in-out;
+}
+.g6 {
+	height: 50px;
+	width: 20px;
+	top: 100px;
+	left: 851px;
+	transform: skew(-30deg);
+}
 .alle {
 	position: absolute;
 	top: 100px;
-	left: 10px;
+	left: 20px;
 	transform: scale(.65);
 }
 .alle:hover .allshapes {
 	background-color: rgb(240,214,205);
-	transition: background-color 1.5s ease-out;
-
+	transition: all 1.5s ease-out;
 }
 .e1 {
 	height: 200px;
@@ -307,12 +315,18 @@ animation:rainbow 1s infinite;
 	top: 105px;
 	left: 1049px;
 }
+.e1:hover {
+	height: 150px;
+}
 .e2 {
 	height: 80px;
 	width: 80px;
 	border-radius: 20px 20px 20px 0px;
 	top: 225px;
 	left: 1095px;
+}
+.e2:hover {
+	transform: rotate(540deg);
 }
 .e3 {
 	height: 10px;
@@ -321,12 +335,19 @@ animation:rainbow 1s infinite;
 	top: 105px;
 	left: 1067px;
 }
+.e3:hover {
+	width: 80px;
+}
 .e4 {
 	height: 7px;
 	width: 105px;
 	border-radius: 0px 0px 20px 0px;
 	top: 165px;
 	left: 1069px;
+}
+.e4:hover {
+	height: 50px;
+	top: 150px;
 }
 .e5 {
 	height: 20px;
@@ -337,15 +358,19 @@ animation:rainbow 1s infinite;
 	top: 275px;
 	left: 1105px;
 }
+.e5:hover {
+	transform: rotate(-180deg);
+	transition: transform 1.5s ease-in-out;
+}
 .alls {
 	position: absolute;
 	top: 100px;
-	left: 10px;
+	left: 20px;
 	transform: scale(.65);
 }
 .alls:hover .allshapes {
 	background-color: rgb(240,222,241);
-	transition: background-color 1.5s ease-out;
+	transition: all 1.5s ease-out;
 }
 .s1 {
 	height: 100px;
@@ -353,6 +378,9 @@ animation:rainbow 1s infinite;
 	border-radius: 0px 20px 0px 0px;
 	top: 100px;
 	left: 1289px;
+}
+.s1:hover {
+	transform: rotate(90deg);
 }
 .s2 {
 	height: 145px;
@@ -379,12 +407,19 @@ animation:rainbow 1s infinite;
 	transform: rotate(-45deg);
 	transform: skew(45deg);
 }
+.s4:hover {
+	width: 40px;
+	left: 1305px;
+}
 .s5 {
 	height: 100px;
 	width: 100px;
 	border-radius: 0px 20px 0px 20px;
 	top: 210px;
 	left: 1259px;
+}
+.s5:hover {
+	transform: rotate(-270deg);
 }
 .s6 {
 	height: 95px;
@@ -404,6 +439,10 @@ animation:rainbow 1s infinite;
 	top: 110px;
 	left: 1356px;
 }
+.s7:hover {
+	transform: rotate(-720deg);
+	transition: transform 2.5s ease-in-out;
+}
 .s8 {
 	height: 20px;
 	width:20px;
@@ -413,6 +452,10 @@ animation:rainbow 1s infinite;
 	top: 277px;
 	left: 1272px;
 }
+.s8:hover {
+	transform: rotate(360deg);
+	transition: transform 1.5s ease-out;
+}
 .s9 {
 	height: 51px;
 	width: 10px;
@@ -420,10 +463,17 @@ animation:rainbow 1s infinite;
 	top: 100px;
 	left: 1265px;
 }
+.s9:hover {
+	height: 0px;
+	top: 151px;
+}
 .s10 {
 	height: 51px;
 	width: 10px;
 	border-radius: 0px 0px 0px 0px;
 	top: 259px;
 	left: 1374px;
+}
+.s10:hover {
+	height: 0px;
 }
