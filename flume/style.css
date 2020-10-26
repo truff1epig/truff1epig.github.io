@@ -1,0 +1,82 @@
+h1 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 15vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 27vh;
+	left: 39vw;
+	transform: rotate(45deg);
+}
+h2 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 2.5vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 425px;
+	left: 335px;
+	transform: rotate(45deg);
+}
+p {
+	font-family: 'Play', sans-serif;
+	font-size: 2vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 670px;
+	left: -30px;
+	height: 500px;
+	width: 1000px;
+	transform: rotate(45deg);
+}
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("flume-05.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+h1 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 15vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 7.8vh;
+	left: 46vw;
+	transform: rotate(45deg);
+	}
+h2 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 3vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 120px;
+	left: 115px;
+	transform: rotate(45deg);
+}
+p {
+	font-family: 'Play', sans-serif;
+	font-size: 3vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: -60px;
+	left: 155px;
+	height: 500px;
+	width: 1000px;
+	line-height: 16px;
+	transform: rotate(-45deg);
+}
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("flumemini-06.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+}
