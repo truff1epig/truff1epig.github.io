@@ -1,0 +1,157 @@
+h1 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 18vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 19vh;
+	left: 32vw;
+	transform: rotate(45deg);
+}
+h1:hover {
+	animation: 3s multicolor;
+}
+@keyframes multicolor {
+    0% {
+        color: #000;
+    }
+    33% {
+        color: #FF0000;
+    }
+    66% {
+        color: #0000FF;
+    }
+    100% {
+        color: #FFF;
+    }
+}
+h2 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 2vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 450px;
+	left: 390px;
+	transform: rotate(45deg);
+}
+p {
+	font-family: 'Play', sans-serif;
+	font-size: 1.8vw;
+	color: rgb(249,227,210);
+}
+.p1 {
+	width: 10px;
+	position: absolute;
+	top: 165px;
+	left: 95px;
+	line-height: 40px;
+	transform: rotate(45deg);
+}
+.p2 {
+	width: 105px;
+	font-size: 1.6vw;
+	position: absolute;
+	top: 460px;
+	left: 230px;
+	line-height: 32px;
+	transform: rotate(-45deg);
+}
+.p3 {
+	width: 105px;
+	font-size: 1.5vw;
+	position: absolute;
+	top: 620px;
+	left: 110px;
+	line-height: 32px;
+	transform: rotate(45deg);
+}
+.box1 {
+	height: 75px;
+	width: 75px;
+	background-color: rgb(158,136,144);
+	position: absolute;
+	top: 200px;
+	left: 782px;
+	transform: rotate(45deg);
+}.box2 {
+	height: 75px;
+	width: 75px;
+	background-color: rgb(158,136,144);
+	position: absolute;
+	top: 200px;
+	left: 782px;
+	transform: rotate(45deg);
+}
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("flumebig-05.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+h1 {
+	font-family: 'Syne Mono', monospace;
+	font-size: 15vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 10.8vh;
+	left: 10vw;
+	transform: rotate(45deg);
+	}
+h2 {
+	width: 20px;
+	font-family: 'Syne Mono', monospace;
+	font-size: 3vw;
+	color: rgb(249,227,210);
+	position: absolute;
+	top: 130px;
+	left: 225px;
+	transform: rotate(45deg);
+}
+p {
+	font-family: 'Play', sans-serif;
+	font-size: 3vw;
+	color: rgb(249,227,210);
+	transform: rotate(-45deg);
+}
+.p1 {
+	width: 10px;
+	position: absolute;
+	top: 285px;
+	left: 30px;
+	line-height: 15px;
+	transform: rotate(45deg);	
+}
+.p2 {
+	width: 105px;
+	font-size: 2.5vw;
+	position: absolute;
+	top: 360px;
+	left: 175px;
+	line-height: 12px;
+	transform: rotate(-45deg);	
+}
+.p3 {
+	width: 105px;
+	font-size: 1.95vw;
+	position: absolute;
+	top: 540px;
+	left: 18px;
+	line-height: 32px;
+	transform: rotate(45deg);
+}
+.background {
+	position: absolute;
+	top: 0px;
+	left: -100px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("flumemini-06.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+}
