@@ -95,11 +95,11 @@ p {
 @media (max-width: 375px) {
 h1 {
 	font-family: 'Syne Mono', monospace;
-	font-size: 15vw;
+	font-size: 13vw;
 	color: rgb(249,227,210);
 	position: absolute;
-	top: 10.8vh;
-	left: 10vw;
+	top: 9.5vh;
+	left: 28vw;
 	transform: rotate(45deg);
 	}
 h2 {
@@ -108,8 +108,8 @@ h2 {
 	font-size: 3vw;
 	color: rgb(249,227,210);
 	position: absolute;
-	top: 130px;
-	left: 225px;
+	top: 95px;
+	left: 270px;
 	transform: rotate(45deg);
 }
 p {
@@ -121,8 +121,8 @@ p {
 .p1 {
 	width: 10px;
 	position: absolute;
-	top: 285px;
-	left: 30px;
+	top: 215px;
+	left: 100px;
 	line-height: 15px;
 	transform: rotate(45deg);	
 }
@@ -130,24 +130,24 @@ p {
 	width: 105px;
 	font-size: 2.5vw;
 	position: absolute;
-	top: 360px;
-	left: 175px;
+	top: 280px;
+	left: 215px;
 	line-height: 12px;
 	transform: rotate(-45deg);	
 }
 .p3 {
 	width: 105px;
-	font-size: 1.95vw;
+	font-size: 1.75vw;
 	position: absolute;
-	top: 540px;
-	left: 18px;
+	top: 445px;
+	left: 90px;
 	line-height: 32px;
 	transform: rotate(45deg);
 }
 .background {
 	position: absolute;
-	top: 0px;
-	left: -100px;
+	top: 0vh;
+	left: 0vw;
 	width: 100vw;
 	height: 100vh;
 	background-image: url("flumemini-06.png");
