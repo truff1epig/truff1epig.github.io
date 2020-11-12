@@ -1,42 +1,48 @@
+.home {
+	position: absolute;
+	top: -5px;
+	left: 20px;
+	width: 100px;
+	height: 100px;
+}
 .shape1 {
 	position: absolute;
 	top: 0px;
-	left: 10px;
+	left: 280px;
 	width: 100px;
 	height: 100px;
 }
 .shape2 {
 	position: absolute;
 	top: 0px;
-	left: 300px;
+	left: 500px;
 	width: 100px;
 	height: 100px;
 }
 .shape3 {
 	position: absolute;
 	top: 0px;
-	left: 590px;
+	left: 710px;
 	width: 100px;
 	height: 100px;
 }
 .shape4 {
 	position: absolute;
 	top: 0px;
-	left: 880px;
+	left: 930px;
 	width: 100px;
 	height: 100px;
 }
 .shape5 {
 	position: absolute;
 	top: 0px;
-	left: 1170px;
+	left: 1150px;
 	width: 100px;
 	height: 100px;
 }
 .pics {
 	position: relative;
 	left: 10px;
-	background-color: red;
 	width: 100px;
 	height: 100px;
 	margin-top: 100px;
@@ -57,4 +63,8 @@
 	width: 180px;
 	height: 180px;
 	margin-right: 100px;
+}
+.bumpout {
+	width: 360px;
+	height: 360px;
 }
