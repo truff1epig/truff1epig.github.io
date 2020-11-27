@@ -1,70 +1,1114 @@
-.home {
-	position: absolute;
-	top: -5px;
-	left: 20px;
-	width: 100px;
-	height: 100px;
-}
-.shape1 {
-	position: absolute;
-	top: 0px;
-	left: 280px;
-	width: 100px;
-	height: 100px;
-}
-.shape2 {
-	position: absolute;
-	top: 0px;
-	left: 500px;
-	width: 100px;
-	height: 100px;
-}
-.shape3 {
-	position: absolute;
-	top: 0px;
-	left: 710px;
-	width: 100px;
-	height: 100px;
-}
-.shape4 {
-	position: absolute;
-	top: 0px;
-	left: 930px;
-	width: 100px;
-	height: 100px;
-}
-.shape5 {
-	position: absolute;
-	top: 0px;
-	left: 1150px;
-	width: 100px;
-	height: 100px;
-}
-.pics {
+.kitty {
 	position: relative;
-	left: 10px;
+	top: -200px;
+	left: 200px;
+	float: right;
+	width: 1624px;
+	height: 1100px;
+}
+.home {
+	width: 90px;
+	height: 80px;
+}
+h1 {
+	position: absolute;
+	top: 50px;
+	left: 70px;
+	width: 380px;
+	font-family: 'Rammetto One', cursive;
+	font-size: 20px;
+}
+p {
+	position: absolute;
+	top: 140px;
+	left: 70px;
+	width: 310px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+}
+img {
+	width: 80px;
+	height: 100px;
+}
+.spots {
+	position: relative;
+	left: 1000px;
+	top: 250px;
 	width: 100px;
 	height: 100px;
-	margin-top: 100px;
-	margin-right: 115px;
+}
+.all {
+	position: absolute;
+	left: 100px;
+	top: -100px;
+	transition: ease-out .5s;
+}
+.s1 {
+	position: absolute;
+	left: 1000px;
+	top: 230px;
+	width: 80px;
+	height: 80px;
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s1:hover {
+	background-image: url(anthemg.png);
+}
+.s2 {
+	position: absolute;
+	left: 890px;
+	top: 240px;
+	width: 80px;
+	height: 80px;
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s2:hover {
+	background-image: url(sprintg.png);
+}
+.s3 {
+	position: absolute;
+	left: 1165px;
+	top: 180px;
+	width: 90px;
+	height: 90px;
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s3:hover {
+	background-image: url(randallg.png);
+}
+.s4 {
+	position: absolute;
+	left: 920px;
+	top: 200px;
+	width: 50px;
+	height: 50px;
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s4:hover {
+	background-image: url(glenng.png);
+}
+.s5 {
+	position: absolute;
+	left: 1240px;
+	top: 220px;
+	width: 60px;
+	height: 60px;
+	transform: rotate(90deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.s5:hover {
+	background-image: url(citig.png);
+}
+.s6 {
+	position: absolute;
+	top: 220px;
+	left: 800px;
+	width: 80px;
+	height: 100px;
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s6:hover {
+	background-image: url(citig.png);
+}
+.s7 {
+	position: absolute;
+	top: 240px;
+	left: 1115px;
+	width: 70px;
+	height: 100px;
+	transform: rotate(-10deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s7:hover {
+	background-image: url(sprintg.png);
+}
+.s8 {
+	position: absolute;
+	top: 290px;
+	left: 750px;
+	width: 60px;
+	height: 60px;
+	transform: rotate(90deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s8:hover {
+	background-image: url(merrig.png);
+}
+.s9 {
+	position: absolute;
+	top: 330px;
+	left: 1030px;
+	width: 100px;
+	height: 60px;
+	transform: rotate(150deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s9:hover {
+	background-image: url(merrig.png);
+}
+.s10 {
+	position: absolute;
+	top: 100px;
+	left: 1200px;
+	width: 100px;
+	height: 90px;
+	transform: rotate(90deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s10:hover {
+	background-image: url(anthemg.png);
+}
+.s11 {
+	position: absolute;
+	top: 140px;
+	left: 1080px;
+	width: 80px;
+	height: 80px;
+	transform: rotate(90deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s11:hover {
+	background-image: url(glenng.png);
+}
+.s12 {
+	position: absolute;
+	top: 170px;
+	left: 780px;
+	width: 60px;
+	height: 60px;
+	transform: rotate(160deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s12:hover {
+	background-image: url(randallg.png);
+}
+.s13 {
+	position: absolute;
+	top: 205px;
+	left: 735px;
+	width: 70px;
+	height: 70px;
+	transform: rotate(180deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s13:hover {
+	background-image: url(anthemg.png);
+}
+.s14 {
+	position: absolute;
+	top: 280px;
+	left: 655px;
+	width: 85px;
+	height: 85px;
+	transform: rotate(90deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s14:hover {
+	background-image: url(glenng.png);
+}
+.s15 {
+	position: absolute;
+	top: 300px;
+	left: 935px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(120deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s15:hover {
+	background-image: url(randallg.png);
+}
+.s16 {
+	position: absolute;
+	top: 150px;
+	left: 1280px;
+	width: 90px;
+	height: 90px;
+	transform: rotate(350deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s16:hover {
+	background-image: url(merrig.png);
+}
+.s17 {
+	position: absolute;
+	top: 170px;
+	left: 670px;
+	width: 90px;
+	height: 90px;
+	transform: rotate(0deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s17:hover {
+	background-image: url(sprintg.png);
+}
+.s18 {
+	position: absolute;
+	top: 10px;
+	left: 1250px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(350deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s18:hover {
+	background-image: url(citig.png);
+}
+.s19 {
+	position: absolute;
+	top: 280px;
+	left: 1200px;
+	width: 65px;
+	height: 60px;
+	transform: rotate(30deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s19:hover {
+	background-image: url(anthemg.png);
+}
+.s20 {
+	position: absolute;
+	top: 155px;
+	left: 740px;
+	width: 40px;
+	height: 40px;
+	transform: rotate(30deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s20:hover {
+	background-image: url(glenng.png);
+}
+.s21 {
+	position: absolute;
+	top: 250px;
+	left: 560px;
+	width: 85px;
+	height: 85px;
+	transform: rotate(180deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s21:hover {
+	background-image: url(randallg.png);
+}
+.s22 {
+	position: absolute;
+	top: 150px;
+	left: 850px;
+	width: 70px;
+	height: 70px;
+	transform: rotate(50deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s22:hover {
+	background-image: url(merrig.png);
+}
+.s23 {
+	position: absolute;
+	top: 160px;
+	left: 960px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(120deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s23:hover {
+	background-image: url(sprintg.png);
+}
+.s24 {
+	position: absolute;
+	top: 340px;
+	left: 530px;
+	width: 100px;
+	height: 100px;
+	transform: rotate(170deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s24:hover {
+	background-image: url(citig.png);
+}
+.s25 {
+	position: absolute;
+	top: 450px;
+	left: 400px;
+	width: 50px;
+	height: 50px;
+	transform: rotate(90deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s25:hover {
+	background-image: url(anthemg.png);
+}
+.s26 {
+	position: absolute;
+	top: 295px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	transform: rotate(30deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s26:hover {
+	background-image: url(glenng.png);
+}
+.s27 {
+	position: absolute;
+	top: 390px;
+	left: 450px;
+	width: 55px;
+	height: 55px;
+	transform: rotate(150deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s27:hover {
+	background-image: url(randallg.png);
+}
+.s28 {
+	position: absolute;
+	top: 450px;
+	left: 50px;
+	width: 50px;
+	height: 60px;
+	transform: rotate(50deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s28:hover {
+	background-image: url(merrig.png);
+}
+.s29 {
+	position: absolute;
+	top: 450px;
+	left: 460px;
+	width: 50px;
+	height: 50px;
+	transform: rotate(120deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s29:hover {
+	background-image: url(sprintg.png);
+}
+.s30 {
+	position: absolute;
+	top: 370px;
+	left: 50px;
+	width: 70px;
+	height: 70px;
+	transform: rotate(100deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s30:hover {
+	background-image: url(citig.png);
+}
+.s31 {
+	position: absolute;
+	top: 490px;
+	left: 15px;
+	width: 50px;
+	height: 55px;
+	transform: rotate(50deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s31:hover {
+	background-image: url(anthemg.png);
+}
+.s32 {
+	position: absolute;
+	top: 595px;
+	left: 90px;
+	width: 70px;
+	height: 70px;
+	transform: rotate(30deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s32:hover {
+	background-image: url(glenng.png);
+}
+.s33 {
+	position: absolute;
+	top: 520px;
+	left: 65px;
+	width: 65px;
+	height: 65px;
+	transform: rotate(150deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s33:hover {
+	background-image: url(randallg.png);
+}
+.s34 {
+	position: absolute;
+	top: 450px;
+	left: 510px;
+	width: 50px;
+	height: 60px;
+	transform: rotate(50deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s34:hover {
+	background-image: url(merrig.png);
+}
+.s35 {
+	position: absolute;
+	top: 210px;
+	left: 610px;
+	width: 50px;
+	height: 50px;
+	transform: rotate(120deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s35:hover {
+	background-image: url(sprintg.png);
+}
+.s36 {
+	position: absolute;
+	top: 370px;
+	left: 120px;
+	width: 40px;
+	height: 40px;
+	transform: rotate(10deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s36:hover {
+	background-image: url(citig.png);
+}
+.s37 {
+	position: absolute;
+	top: 610px;
+	left: 265px;
+	width: 60px;
+	height: 65px;
+	transform: rotate(130deg);
+	background-image: url(anthemsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s37:hover {
+	background-image: url(anthemg.png);
+}
+.s38 {
+	position: absolute;
+	top: 520px;
+	left: 390px;
+	width: 60px;
+	height: 50px;
+	transform: rotate(0deg);
+	background-image: url(glennsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s38:hover {
+	background-image: url(glenng.png);
+}
+.s39 {
+	position: absolute;
+	top: 550px;
+	left: 325px;
+	width: 85px;
+	height: 80px;
+	transform: rotate(0deg);
+	background-image: url(randallsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s39:hover {
+	background-image: url(randallg.png);
+}
+.s40 {
+	position: absolute;
+	top: 580px;
+	left: 190px;
+	width: 70px;
+	height: 60px;
+	transform: rotate(50deg);
+	background-image: url(merrisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s40:hover {
+	background-image: url(merrig.png);
+}
+.s41 {
+	position: absolute;
+	top: 370px;
+	left: 590px;
+	width: 90px;
+	height: 70px;
+	transform: rotate(180deg);
+	background-image: url(sprintsk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s41:hover {
+	background-image: url(sprintg.png);
+}
+.s42 {
+	position: absolute;
+	top: 125px;
+	left: 925px;
+	width: 40px;
+	height: 50px;
+	transform: rotate(100deg);
+	background-image: url(citisk.png);
+	background-size: contain;
+	background-repeat: no-repeat; 
+}
+.s42:hover {
+	background-image: url(citig.png);
+}
+.anthem1 {
+	position: relative;
+	top: 45px;
+	left: 70px;
+	font-size: 60px;
+}
+.antcut{
+	position: absolute;
+	top: 65px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(anthemg.png);
+	background-repeat: repeat; 
+}
+.anthpix {
+	position: absolute;
+	top: 350px;
+	left: 80px;
+}
+.sremm {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(sremm.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
 }
-.music1 {
-	width: 180px;
-	height: 180px;
-	margin-right: 100px;
+.sremm:hover {
+	transform: scale(1.1);
 }
-.music2 {
-	width: 180px;
-	height: 180px;
-	margin-right: 100px;
+.cudi {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(cudi.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
 }
-.music3 {
-	width: 180px;
-	height: 180px;
-	margin-right: 100px;
+.cudi:hover {
+	transform: scale(1.1);
 }
-.bumpout {
-	width: 360px;
-	height: 360px;
+.rashad {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(isaiah.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.rashad:hover {
+	transform: scale(1.1);
+}
+.pnd {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(pnd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.pnd:hover {
+	transform: scale(1.1);
+}
+.randall1 {
+	position: relative;
+	top: 40px;
+	left: 70px;
+	font-size: 60px;
+}
+.rancut{
+	position: absolute;
+	top: 65px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(randallg.png);
+	background-repeat: repeat; 
+}
+.randpix {
+	position: absolute;
+	top: 250px;
+	left: 450px;
+}
+.frank {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(disco.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.frank:hover {
+	transform: scale(1.1);
+}
+.flwrboy {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(flwrboy.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.flwrboy:hover {
+	transform: scale(1.1);
+}
+.igor {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(igor.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.igor:hover {
+	transform: scale(1.1);
+}
+.citi1 {
+	position: relative;
+	top: 40px;
+	left: 70px;
+	font-size: 60px;
+}
+.citicut{
+	position: absolute;
+	top: 55px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(citig.png);
+	background-repeat: repeat; 
+}
+.citipix {
+	position: absolute;
+	top: 250px;
+	left: 75px;
+}
+.uzi {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(liluzi.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.uzi:hover {
+	transform: scale(1.1);
+}
+.travis {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(travis.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.travis:hover {
+	transform: scale(1.1);
+}
+.thugger {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(jeffery.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.thugger:hover {
+	transform: scale(1.1);
+}
+.pierre {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(yopierre.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	transition: ease-in .5s;
+}
+.pierre:hover {
+	transform: scale(1.1);
+}
+.sp1 {
+	position: relative;
+	top: 30px;
+	left: 70px;
+	width: 1000px;
+	font-size: 60px;
+}
+.spcut{
+	position: absolute;
+	top: 45px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(sprintg.png);
+	background-repeat: repeat; 
+}
+.sppix {
+	position: absolute;
+	top: 250px;
+	left: 80px;
+}
+.flume {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(flume.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.flume:hover {
+	transform: scale(1.1);
+}
+.flume2 {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(flume2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.flume2:hover {
+	transform: scale(1.1);
+}
+.flume3 {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(flume3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.flume3:hover {
+	transform: scale(1.1);
+}
+.flume4 {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(flume4.jpeg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.flume4:hover {
+	transform: scale(1.1);
+}
+.merri1 {
+	position: relative;
+	top: 40px;
+	left: 70px;
+	font-size: 60px;
+}
+.merricut{
+	position: absolute;
+	top: 75px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(merrig.png);
+	background-repeat: repeat; 
+}
+.merripix {
+	position: absolute;
+	top: 250px;
+	left: 450px;
+}
+.glizzy {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(glizzy.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.glizzy:hover {
+	transform: scale(1.1);
+}
+.goldlink {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(goldlink.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.goldlink:hover {
+	transform: scale(1.1);
+}
+.party {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(party.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.party:hover {
+	transform: scale(1.1);
+}
+.glenn1 {
+	position: relative;
+	top: 40px;
+	left: 70px;
+	width: 600px;
+	font-size: 60px;
+}
+.glenncut{
+	position: absolute;
+	top: 75px;
+	left: -50px;
+	width: 1040px;
+	height: 700px;
+	background-image: url(merrig.png);
+	background-repeat: repeat; 
+}
+.glennpix {
+	position: absolute;
+	top: 250px;
+	left: 80px;
+}
+.mura {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(lazer.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.mura:hover {
+	transform: scale(1.1);
+}
+.childish {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(childish.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.childish:hover {
+	transform: scale(1.1);
+}
+.three {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(311.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.three:hover {
+	transform: scale(1.1);
+}
+.oneone {
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 300px;
+	height: 300px;
+	background-image: url(3112.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: ease-in .5s;
+}
+.oneone:hover {
+	transform: scale(1.1);
 }

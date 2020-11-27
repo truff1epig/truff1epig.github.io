@@ -1,0 +1,440 @@
+iframe {
+	position: relative;
+}
+.three {
+	float: right;
+}
+.homebar {
+	z-index: 99.99999999%;
+}
+h1 {
+	font-family: 'Rammetto One', cursive;
+	position: relative;
+	display: inline-block;
+}
+p {
+	font-family: 'Oswald', sans-serif;
+}
+.oneone {
+	top: 0px;
+	font-size: 320px;
+	margin-left: 20px;
+}
+.mosaic {
+	position: relative;
+	display: inline-block;
+	top: 550px;
+	font-size: 50px;
+	width: 200px;
+}
+.tour {
+	position: absolute;
+	top: -40px;
+	left: 1130px;
+}
+.flum {
+	position: relative;
+	float: right;
+	top: 250px;
+}
+.fl1 {
+	position: absolute;
+	top: -260px;
+	left: 450px;
+}
+.fl {
+	position: relative;
+	font-size: 252px;
+}
+.fl2 {
+	position: absolute;
+	top: 200px;
+	left: 460px;
+}
+.fl3 {
+	position: relative;
+	font-size: 45px;
+}
+.ty1 {
+	position: absolute;
+	top: -275px;
+	left: 760px;
+	width: 600px;
+	height: 680px;
+}
+.ty2 {
+	font-size: 300px;
+	width: 600px;
+	line-height: 435px;
+}
+.ty3 {
+	position: absolute;
+	top: 320px;
+	left: 770px;
+	width: 600px;
+	height: 680px;
+}
+.ty4 {
+	font-size: 50px;
+	width: 600px;
+}
+.frnk{
+	position: relative;
+	float: right;
+}
+.frnk1 {
+	position: absolute;
+	top: -135px;
+	left: 450px;
+	width: 600px;
+	height: 680px;
+}
+.frnk2 {
+	font-size: 200px;
+	width: 600px;
+	line-height: 225px;
+}
+.frnk3 {
+	position: absolute;
+	top: 40px;
+	left: 843px;
+	width: 200px;
+	height: 680px;
+}
+.frnk4 {
+	font-size: 38px;
+	width: 200px;
+}
+.gliz{
+	position: relative;
+	float: right;
+	top: 0px;
+}
+.gliz1 {
+	position: absolute;
+	top: 45px;
+	left: 470px;
+	width: 600px;
+	height: 680px;
+}
+.gliz2 {
+	font-size: 210px;
+	width: 600px;
+	line-height: 255px;
+}
+.gliz3 {
+	position: absolute;
+	top: 55px;
+	left: 480px;
+	width: 200px;
+	height: 680px;
+}
+.gliz4 {
+	font-size: 50px;
+	width: 500px;
+}
+.igor {
+	position: relative;
+	float: right;
+	top: 0px;
+}
+.igor1 {
+	position: absolute;
+	top: -90px;
+	left: 470px;
+	width: 2px;
+	height: 680px;
+}
+.igor2 {
+	font-size: 310px;
+	width: 1px;
+	line-height: 305px;
+}
+.igor3 {
+	position: absolute;
+	top: -105px;
+	left: 990px;
+	width: 300px;
+	height: 680px;
+	transform: rotate(-90deg);
+}
+.igor4 {
+	font-size: 60px;
+}
+.rash1 {
+	position: absolute;
+	top: -90px;
+	left: 370px;
+	width: 2px;
+	height: 680px;
+}
+.rash2 {
+	font-size: 180px;
+	width: 1px;
+	line-height: 205px;
+}
+.rash3 {
+	position: absolute;
+	top: -175px;
+	left: 375px;
+	width: 2000px;
+	height: 680px;
+}
+.rash4 {
+	font-size: 40px;
+	line-height: 45px;
+}
+.mura1 {
+	position: absolute;
+	top: -20px;
+	left: 440px;
+	width: 2px;
+	height: 680px;
+}
+.mura2 {
+	font-size: 180px;
+	width: 1px;
+	line-height: 205px;
+}
+.mura12 {
+	position: absolute;
+	top: 165px;
+	left: 770px;
+	width: 2px;
+	height: 680px;
+}
+.mura23 {
+	font-size: 180px;
+	width: 1px;
+	line-height: 205px;
+}
+.mura3 {
+	position: absolute;
+	top: 0px;
+	left: 445px;
+	width: 700px;
+	height: 680px;
+}
+.mura4 {
+	font-size: 40px;
+	line-height: 
+}
+.gamb {
+	position: absolute;
+	top: -110px;
+	left: 990px;
+	width: 900px;
+	height: 680px;
+	transform: rotate(-90deg);
+}
+.gamb2 {
+	font-size: 110px;
+	width: 1px;
+	line-height: 115px;
+}
+.gamb3 {
+	position: absolute;
+	top: 80px;
+	left: 1015px;
+	width: 500px;
+	height: 680px;
+	transform: rotate(-90deg);
+
+}
+.gamb4 {
+	font-size: 60px;
+	line-height: 75px;
+}
+.cudi1 {
+	position: absolute;
+	top: -115px;
+	left: 990px;
+	line-height: 180px;
+}
+.cudi2 {
+	position: relative;
+	font-size: 152px;
+}
+.cudi3 {
+	position: absolute;
+	top: 10px;
+	left: 745px;
+	width: 300px;
+	transform: rotate(-90deg);
+
+}
+.cudi4 {
+	position: relative;
+	font-size: 60px;
+}
+.yo {
+	position: relative;
+	float: right;
+	top: -75px;
+}
+.tlop {
+	position: relative;
+	float: left;
+	top: 0px;
+}
+.tlop1 {
+	position: absolute;
+	top: 0px;
+	left: 320px;
+	width: 2px;
+}
+.tlop2 {
+	font-size: 230px;
+	width: 1px;
+	line-height: 295px;
+}
+.tlop3 {
+	position: absolute;
+	top: 50px;
+	left: 320px;
+	width: 900px;
+	height: 680px;
+}
+.tlop4 {
+	font-size: 50px;
+}
+.pnd {
+	position: relative;
+	float: right;
+	top: 170px;
+}
+.party {
+	position: relative;
+	float: left;
+	top: 250px;
+}
+.party1 {
+	position: absolute;
+	top: 0px;
+	left: 00px;
+}
+.party2 {
+	font-size: 125px;
+	width: 1px;
+	line-height: 5px;
+}
+.party3 {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	width: 900px;
+	height: 680px;
+}
+.party4 {
+	font-size: 40px;
+}
+.rae {
+	position: relative;
+	float: right;
+}
+.rae1 {
+	position: absolute;
+	top: -120px;
+	left: 450px;
+	width: 300px;
+}
+.rae2 {
+	font-size: 205px;
+	width: 1px;
+	line-height: 210px;
+}
+.rae3 {
+	position: absolute;
+	top: 580px;
+	left: 450px;
+	width: 900px;
+	height: 680px;
+}
+.rae4 {
+	font-size: 50px;
+}
+.thug {
+	position: relative;
+	top: -75px;
+}
+.jeff {
+	position: absolute;
+	top: 350px;
+	left: 10px;
+}
+.jeff1 {
+	position: absolute;
+	top: -150px;
+	left: 460px;
+	width: 300px;
+}
+.jeff2 {
+	font-size: 220px;
+	width: 1px;
+	line-height: 230px;
+}
+.jeff3 {
+	position: absolute;
+	top: 190px;
+	left: 1230px;
+	width: 200px;
+	height: 680px;
+}
+.jeff4 {
+	font-size: 40px;
+}
+.trav {
+	position: absolute;
+	top: 350px;
+	left: 1100px;
+}
+.trav1 {
+	position: absolute;
+	top: -225px;
+	left: 370px;
+	width: 300px;
+}
+.trav2 {
+	font-size: 220px;
+}
+.travs1 {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 300px;
+}
+.travs2 {
+	font-size: 270px;
+	width: 1px;
+}
+.trav3 {
+	position: absolute;
+	top: 180px;
+	left: 380px;
+	width: 100px;
+	height: 680px;
+}
+.trav4 {
+	font-size: 40px;
+}
+.uzi1 {
+	position: absolute;
+	top: -75px;
+	left: 770px;
+	width: 300px;
+}
+.uzi2 {
+	font-size: 200px;
+	width: 1px;
+	line-height: 220px;
+}
+.uzi3 {
+	position: absolute;
+	top: 315px;
+	left: 1230px;
+	width: 160px;
+	height: 680px;
+}
+.uzi4 {
+	font-size: 40px;
+}
